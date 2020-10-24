@@ -1,0 +1,165 @@
+body{
+    background-color: rgba(red, rgb(214, 179, 22), blue, alpha);
+    background-image: url(fond-dino.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /*
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    */
+}
+
+.strong{
+  color: rgb(69, 162, 177);
+}
+
+.logo{
+    position: absolute;/*déplacer l'élément sans affecter les autres élément*/
+    z-index: 1000; /*prioriter d'affichage*/
+    background-repeat: no-repeat;
+    margin-left: 5%;
+    margin-top: 9%;
+    border: 20px none rgb(0, 48, 49);
+    height: 20%;
+}
+
+.div1{
+    z-index: 1001; /*prioriter d'affichage*/
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 20px double rgb(0, 48, 49);
+    height: 200px;
+
+}
+.titre{
+    margin-top: 0px;
+    text-align: center;
+    color: rgb(240, 178, 123);
+}
+.para1{
+    margin-top: 70px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    
+}
+
+.div2{
+    margin-top: 50px;
+    border: 20px;
+    display: inline;
+    background-attachment: fixed;
+    margin-left: 40%;
+}
+.boutonDiscord{
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: rgb(29, 29, 29);
+}
+.discord{
+    width: 50%;
+    margin-left: -230px;
+    margin-right: -230px;
+    margin-top: 5px;
+}
+.boutonMenu{
+    background-attachment: fixed;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: rgb(206, 203, 68);
+    margin-left: 50px;
+}
+.boutonRP{
+    background-attachment: fixed;
+    margin-left: 100px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: rgb(182, 160, 59);
+    margin-left: 0px;
+}
+.boutonTerritoire{
+    background-attachment: fixed;
+    margin-left: 40%;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: rgb(182, 104, 59);
+    margin-left: 0px;
+}
+.boutonHerbivores{
+    background-attachment: fixed;
+    margin-left: 40%;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: rgb(155, 182, 59);
+    margin-left: 0px;
+}
+.boutonCarnivores{
+    background-attachment: fixed;
+    margin-left: 50%;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: rgb(182, 59, 59);
+    margin-left: 0px;
+}
+
+
+.div3{
+    background-attachment: fixed; 
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 20px double rgb(0, 48, 49);
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 23%;
+    margin-right: 23%;
+    width: 53%;
+    height: 100%;
+}
+.video{
+    width: 100%;
+}
+.erpara{
+    outline: none;
+    color: rgb(240, 178, 123);
+    text-align: center;
+
+}
+.para2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10%;
+    color: rgb(193, 235, 241);
+    font-size: 130%;
+    height: 20%;
+}
+.liendiscordtext{
+    color: rgb(59, 147, 182); 
+}
+
+
+
+/*
+input{
+    font-size: 10em;
+    text-align: center;
+    width: 200px;
+    border: tomato;
+    border: none;
+    background-color: rgba(255,255,255,.2);
+    outline: none;
+    color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    }
+    .error{
+        background-color: #e74d3c6b;
+        border: 2px solid #e74d3c6b;
+    }
+    */
